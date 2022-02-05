@@ -1,0 +1,15 @@
+#Files
+Pipfile*
+*.pyc
+
+
+# Directories
+.idea/
+.pytest_cache/
+.vscode/
+
+instance/
+node_modules/
+pyenv/
+venv/
+
