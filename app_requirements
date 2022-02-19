@@ -1,0 +1,44 @@
+1. admin
+    1.0 login
+    1.2 produto
+        - adicionar produto
+        - listar produto/produtos
+        - editar produto
+            - estoque
+        - despachar produto
+        - excluir produto
+            - se não tiver compra pendente
+    1.3 vendas
+        - produto
+        - cliente
+        - forma de pagamento
+        - endereço
+        - promoção
+    1.4 promoção
+        - produto
+    1.5 cliente
+        - produto
+        - vendas
+
+2. cliente
+    2.0 ambos
+        - Ver os produtos
+        - Adicionar coisas ao carrinho
+    2.1 nao registrado
+        - registrar 
+
+    2.2 registrado
+        - logar
+        - fazer checkout
+            - pagamento
+                - cartão
+                - boleto
+                - pix
+            - entrega
+                - serviço de entrega
+                    - endereço
+        - perguntas e respostas
+        - avaliar produto comprado
+
+
+CASOS DE USO

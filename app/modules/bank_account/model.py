@@ -1,6 +1,6 @@
 from .model import get_db
 
-db = get_db
+db = get_db()
 
 class BankAccount(db.Model):
     __tablename__ = 'bank_account'

@@ -1,6 +1,6 @@
 from .model import get_db
 
-db = get_db
+db = get_db()
 
 class Address(db.Model):
     id = db.Column(db.Integer, primary_key=True)
